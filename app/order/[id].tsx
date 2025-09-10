@@ -46,7 +46,7 @@ export default function OrderDetailScreen() {
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat('fr-FR', {
       style: 'currency',
-      currency: 'DA',
+      currency: 'DZD',
     }).format(amount);
   };
 
