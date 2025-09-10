@@ -44,7 +44,7 @@ export default function MainScreen() {
     
     return (
       <ScrollView style={commonStyles.content} showsVerticalScrollIndicator={false}>
-        <Text style={commonStyles.title}>Tableau de bord</Text>
+        <Text style={commonStyles.title}>Affaires SceMECA</Text>
         
         <View style={commonStyles.section}>
           <Text style={commonStyles.subtitle}>Contrats actifs ({activeContracts.length})</Text>
