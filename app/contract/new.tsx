@@ -71,7 +71,7 @@ export default function NewContractScreen() {
             placeholderTextColor={colors.textSecondary}
           />
 
-          <Text style={commonStyles.label}>Client *</Text>
+          <Text style={commonStyles.label}>Fournisseur *</Text>
           <TextInput
             style={commonStyles.input}
             value={client}
@@ -152,7 +152,7 @@ export default function NewContractScreen() {
             </View>
           )}
 
-          <Text style={commonStyles.label}>Valeur (€) *</Text>
+          <Text style={commonStyles.label}>Montant (DA) *</Text>
           <TextInput
             style={commonStyles.input}
             value={value}
@@ -162,7 +162,7 @@ export default function NewContractScreen() {
             keyboardType="numeric"
           />
 
-          <Text style={commonStyles.label}>Description</Text>
+          <Text style={commonStyles.label}>Notes</Text>
           <TextInput
             style={commonStyles.textArea}
             value={description}
@@ -173,7 +173,7 @@ export default function NewContractScreen() {
             numberOfLines={4}
           />
 
-          <Text style={commonStyles.label}>Conditions</Text>
+          <Text style={commonStyles.label}>N° de Contrat</Text>
           <TextInput
             style={commonStyles.textArea}
             value={terms}
