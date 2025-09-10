@@ -108,7 +108,7 @@ export default function MainScreen() {
           <View style={commonStyles.emptyState}>
             <Text style={commonStyles.emptyStateText}>Aucun contrat</Text>
             <Text style={commonStyles.emptyStateSubtext}>
-              Créez votre premier contrat en appuyant sur le bouton +
+              Créez votre contrat en appuyant sur le bouton +
             </Text>
           </View>
         )}
@@ -141,7 +141,7 @@ export default function MainScreen() {
           <View style={commonStyles.emptyState}>
             <Text style={commonStyles.emptyStateText}>Aucune commande</Text>
             <Text style={commonStyles.emptyStateSubtext}>
-              Créez votre première commande en appuyant sur le bouton +
+              Créez votre commande en appuyant sur le bouton +
             </Text>
           </View>
         )}
