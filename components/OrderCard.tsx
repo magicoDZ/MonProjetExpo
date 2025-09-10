@@ -43,7 +43,7 @@ export default function OrderCard({ order, onPress }: OrderCardProps) {
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat('fr-FR', {
       style: 'currency',
-      currency: 'EUR',
+      currency: 'DA',
     }).format(amount);
   };
 
