@@ -119,11 +119,11 @@ export default function ContractDetailScreen() {
         </View>
 
         <View style={commonStyles.card}>
-          <Text style={commonStyles.label}>Période</Text>
+          <Text style={commonStyles.label}>Date d'entée en vigueur</Text>
           <View style={commonStyles.rowStart}>
             <Icon name="calendar-outline" size={20} color={colors.textSecondary} />
             <Text style={[commonStyles.text, { marginLeft: 12 }]}>
-              Du {formatDate(contract.effectiveDate)} au {formatDate(getCalculatedEndDate(contract))}
+              {formatDate(contract.effectiveDate)}
             </Text>
           </View>
         </View>
@@ -142,7 +142,7 @@ export default function ContractDetailScreen() {
         </View>
 
         <View style={commonStyles.card}>
-          <Text style={commonStyles.label}>Valeur du contrat</Text>
+          <Text style={commonStyles.label}>Montant du contrat</Text>
           <View style={commonStyles.rowStart}>
             <Icon name="cash-outline" size={20} color={colors.textSecondary} />
             <Text style={[commonStyles.text, { marginLeft: 12, fontWeight: '600', fontSize: 18 }]}>
