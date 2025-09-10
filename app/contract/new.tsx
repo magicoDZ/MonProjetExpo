@@ -62,7 +62,7 @@ export default function NewContractScreen() {
         <Text style={commonStyles.title}>Nouveau contrat</Text>
 
         <View style={commonStyles.section}>
-          <Text style={commonStyles.label}>Titre *</Text>
+          <Text style={commonStyles.label}>Intitulé *</Text>
           <TextInput
             style={commonStyles.input}
             value={title}
