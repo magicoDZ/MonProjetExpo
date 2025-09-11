@@ -45,5 +45,13 @@
         "projectId": "3ed26ba5-d133-498f-90fe-f9d6ac070eb3"
       }
     }
+  },
+  "name": "AffairesSceMECA",
+  "slug": "affairesscemea",
+  "android": {
+    "package": "com.magicodz.affairesscemea"
+  },
+  "ios": {
+    "bundleIdentifier": "com.magicodz.affairesscemea"
   }
 }
